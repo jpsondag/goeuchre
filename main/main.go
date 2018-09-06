@@ -2,8 +2,12 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/jpsondag/goeuchre/euchre"
 )
 
 func main() {
-	fmt.Println("hello")
+	g := euchre.New()
+	g.Run();
+	fmt.Println(g)
 }
